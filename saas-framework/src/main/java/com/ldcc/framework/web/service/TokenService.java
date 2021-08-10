@@ -1,10 +1,10 @@
 package com.ldcc.framework.web.service;
 
 import com.ldcc.common.constant.Constants;
+import com.ldcc.common.domain.entity.system.LoginUser;
 import com.ldcc.common.utils.RedisUtils;
 import com.ldcc.common.utils.ServletUtils;
 import com.ldcc.common.utils.StringUtils;
-import com.ldcc.common.domain.entity.system.LoginUser;
 import com.ldcc.common.utils.ip.IpUtils;
 import eu.bitwalker.useragentutils.UserAgent;
 import io.jsonwebtoken.Claims;
