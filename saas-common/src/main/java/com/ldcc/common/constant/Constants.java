@@ -35,5 +35,9 @@ public class Constants {
      * https请求
      */
     public static final String HTTPS = "https://";
+    /**
+     * Authorization
+     */
+    public static final String AUTHORIZATION = "Authorization";
 
 }

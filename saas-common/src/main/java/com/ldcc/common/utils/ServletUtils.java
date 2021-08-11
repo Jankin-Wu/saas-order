@@ -32,6 +32,9 @@ public class ServletUtils {
         return Convert.toStr(getRequest().getParameter(name), defaultValue);
     }
 
+    public static String getHeaderParameter(String name) {
+        return getRequest().getHeader(name);
+    }
     /**
      * 获取Integer参数
      */
